@@ -1,0 +1,15 @@
+{
+  "name": "netoptimizer-pro",
+  "options": {
+    "allow-unauthenticated": true,
+    "memory": "512Mi",
+    "cpu": "1",
+    "port": 8080,
+    "http2": false
+  },
+  "env": {},
+  "hooks": {
+    "prebuild": {},
+    "postdeploy": {}
+  }
+}
